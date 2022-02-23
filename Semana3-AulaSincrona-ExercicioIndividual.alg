@@ -7,7 +7,7 @@ var
 temperaturaF, temperaturaC: real
 
 inicio
-Escreval("Qual a temperatura Celsius?")
+Escreval("Qual a temperatura Fahrenheit?")
 Leia(temperaturaF)
 temperaturaC <- (temperaturaF-32)/1.8
 Escreval("Temperatura Celsius:")
