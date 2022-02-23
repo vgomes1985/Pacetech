@@ -1,8 +1,8 @@
 algoritmo "Conversor de Temperatura"
-// Função :
-// Autor : Vinícius Gomes
+// FunÃ§Ã£o :
+// Autor : VinÃ­cius Gomes
 // Data : 22/02/2022
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 temperaturaF, temperaturaC: real
 
@@ -14,12 +14,12 @@ Escreval("Temperatura Celsius:")
 Escreval(temperaturaC)
 
 se temperaturaC <= 15 entao
-   Escreval("Está frio")
+   Escreval("EstÃ¡ frio")
 senao
    se temperaturaC > 28 entao
-      Escreval("Está calor")
+      Escreval("EstÃ¡ calor")
    senao
-      Escreval("Está agradável")
+      Escreval("EstÃ¡ agradÃ¡vel")
    fimse
 fimse
 
