@@ -4,23 +4,23 @@ var
 temperaturaF, temperaturaC, frio, quente: real
 
 inicio
-Escreval("Qual a temperatura do frio para você?")
+Escreval("Qual a temperatura do frio para vocÃª?")
 leia(frio)
-Escreval("Qual a temperatura do calor para você?")
+Escreval("Qual a temperatura do calor para vocÃª?")
 leia(quente)
-Escreval("Qual valor em Fahrenheit que você deseja converter?")
+Escreval("Qual valor em Fahrenheit que vocÃª deseja converter?")
 leia(temperaturaF)
 temperaturaC <- (temperaturaF-32)/1.8
 Escreval(temperaturaF, " Fahrenheit equivale a ", temperaturaC, " Celsius")
 
 se temperaturaC <= frio entao
-   Escreval("Hoje está frio")
+   Escreval("Hoje estÃ¡ frio")
 
 senao
      se temperaturaC > quente entao
-        Escreval("Hoje está quente")
+        Escreval("Hoje estÃ¡ quente")
      senao
-          Escreval("A temperatura está agradável")
+          Escreval("A temperatura estÃ¡ agradÃ¡vel")
      fimse
 fimse
 
