@@ -3,10 +3,10 @@ algoritmo "Entrega Algoritmo - Semana 3"
 var
 numero1, numero2: real
 inicio
-Escreval("Sal·rio")
+Escreval("Sal√°rio")
    leia(numero1)
    numero2 <- numero1 * 1.3
-Escreval("Sal·rio Aumentado")
+Escreval("Sal√°rio Aumentado")
 Escreval(numero2)
 
 
